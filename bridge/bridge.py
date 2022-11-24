@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dataclasses import dataclass
 
 import mimetypes
@@ -6,7 +7,6 @@ import mastodon
 import telebot
 
 from typing import List, Optional
-from __future__ import annotations
 
 from bridge import logger
 from bridge.exceptions import MastodonError
